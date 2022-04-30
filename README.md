@@ -29,14 +29,18 @@ In our code: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/ the + symbol sign
 ### Character Classes
 Character classes allow you to connect symbols with character sets. digits, word characters, and white spaces such as /d, /w /s and * are a few examples. 
 <br />
+<br />
 In our example code: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/ the \d symbolizes the digits 0-9.
 
 ### Grouping and Capturing
 Grouping and capturing help show smaller groups within the main expression. 
 <br />
 In the example code: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/ it is grouped in three sections:
+<br />
 The first set is shown with the expression: [a-z0-9_\.-]
+<br />
 The second set represents the email domain (e.g. google, hotmail, yahoo, etc): [\da-z\.-]
+<br />
 The third set interprets the extention domain (e.g. .com, .net, .org, etc): ([a-z\.]{2,6})
 
 ### Bracket Expressions
@@ -44,7 +48,9 @@ Bracket expressions are shown through brackets which show a matching or nonmatch
 <br />
 In our code: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/ we see three brackets:
 Within the first bracket [a-z0-9_\.-] we see case sensative characters a-z, number characters 0-9, underscores, periods, and hyphens _.-
+<br />
 Within the second bracket [\da-z\.-] includes all digits /d, characters from a-z, periods and hyphens .-
+<br />
 Within the third bracket [a-z\.] includes characters a-z, and periods .
 
 ### Greedy and Lazy Match
