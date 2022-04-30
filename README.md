@@ -35,6 +35,7 @@ In our example code: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/ the \d sy
 ### Grouping and Capturing
 Grouping and capturing help show smaller groups within the main expression. 
 <br />
+<br />
 In the example code: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/ it is grouped in three sections:
 <br />
 The first set is shown with the expression: [a-z0-9_\.-]
@@ -46,6 +47,7 @@ The third set interprets the extention domain (e.g. .com, .net, .org, etc): ([a-
 ### Bracket Expressions
 Bracket expressions are shown through brackets which show a matching or nonmatching list.
 <br />
+<br />
 In our code: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/ we see three brackets:
 Within the first bracket [a-z0-9_\.-] we see case sensative characters a-z, number characters 0-9, underscores, periods, and hyphens _.-
 <br />
@@ -55,6 +57,7 @@ Within the third bracket [a-z\.] includes characters a-z, and periods .
 
 ### Greedy and Lazy Match
 The greed and lazy match identify quantifiers. Greedy quantifiers are the default and connect many with the largest amount of matches. Lazy quantifiers (non-greedy) match elements with very few in the smallest amount of matches. To make the expression greedy to lazy, add an extra ? to the expression.
+<br />
 <br />
 In our example code: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/ we see that we use the greedy quantifier. The "+" helps match the following element one or more times and "{}" specifically matches the elements 2-6 times.
 
