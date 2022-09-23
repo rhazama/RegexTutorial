@@ -62,4 +62,4 @@ The greed and lazy match identify quantifiers. Greedy quantifiers are the defaul
 In our example code: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/ we see that we use the greedy quantifier. The "+" helps match the following element one or more times and "{}" specifically matches the elements 2-6 times.
 
 ## Author
-Hey I'm Ryan Hazama, a full stack web developer based in LA. Some other hobbies I have include videography, hip hop dance, and hunting for the best breakfast burrito. If you'd like to connect or see more of my work, feel free to check out my Github: https://github.com/rhazama
+Hey I'm Ryan Hazama, a full stack web developer based in LA. Some other hobbies I have include videography, hip hop dance, and searching for the best breakfast burrito. If you'd like to connect or see more of my work, feel free to check out my Github: https://github.com/rhazama
